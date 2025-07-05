@@ -55,18 +55,32 @@
     <br /><br />
     <form action="">
       <fieldset>
-        <legend>Contact Details</legend>
+        <legend><b>Reservation</b></legend>
         <label for="name"><b>Full Name</b></label>
         <input type="text" /><br /><br />
         <label for="number"><b>Phone Number</b></label>
         <input type="number" /><br /><br />
         <label for="email"><b>E-mail Address</b></label>
         <input type="email" /><br /><br />
-        <label for="branch">Branch Name</label>
+        <label for="branch"><b></b><b>Branch Name</b></label>
         <select name="branch" value="branch name">
           <option value="cbd">CBD</option>
-          <option value="kilimani">Kilimani</option></select
-        ><br /><br />
+          <option value="kilimani">Kilimani</option></select><br><br>
+          <label for="reservation_date"><b>Reservation Date</b></label>
+                    <input type="date" name="reservation_date" id="reservation_date"><br><br>        
+          <label for="reservation_time"><b>Reservation Time</b></label>
+          <input type="time" name="reservation_time" id="reservation_time"><br><br>
+          <label for="no_of_guests"><b>Number of Guests (max 4)</b></label>
+          <label for="1">1</label>
+          <input type="radio" name="no_of_guests" value="1">
+          <label for="2">2</label>
+          <input type="radio" name="no_of_guests"  value="2">
+          <label for="3">3</label>
+          <input type="radio" name="no_of_guests"  value="3">
+          <label for="4">4</label>
+          <input type="radio" name="no_of_guests" value="4">
+          
+        ><br /><br/>
       </fieldset>
     </form>
     <br /><br />
